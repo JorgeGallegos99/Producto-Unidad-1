@@ -93,7 +93,7 @@ A continuación se muestran diagramas Electronicos de los diseños de los 3 circ
 
 *Circuito Comparador *
 
-![jEsquemaElectronico](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/jDiagramaElectronico.png)
+![MFig10.jpeg](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/MFig10.jpeg)
 
    **Figura 9:** Diseño de Circuito Comparador
 
@@ -119,7 +119,7 @@ En la Tabla 2 se muestra los componentes electrónicos Para la realización del 
    |      1|   AND        |     74LS08       |
    |      1|   NOR        |     74LS04      |
 
-**Tabla 3. Componentes electronicos del Circuito Votador
+**Tabla 3: Componentes electronicos del Circuito Votador**
   | **N°**|**Componentes Electronicos**	|    
    |-------|--------------|
    |      5|  Resistencias de 330       |    
@@ -150,7 +150,7 @@ En la Tabla 2 se muestra los componentes electrónicos Para la realización del 
    |-------|--------------|----------------|
    |      12|   NOR      |    74LS32         |
    
-**Tabla 7 se muestra los componeentes electrónicos usados para  Comparador de 2 Bits**
+**Tabla 7: se muestra los componeentes electrónicos usados para  Comparador de 2 Bits**
    | **N°**|**Componentes Electronicos**	|    
    |-------|--------------|
    |      25|  Resistencias de 330       |    
@@ -162,18 +162,42 @@ En la Tabla 2 se muestra los componentes electrónicos Para la realización del 
                       
 7. MAPA DE VARIABLES
 
+
 8. EXPLICACIÓN DEL CÓDIGO FUENTE
 
 9. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
-En el circuito Asignador de Turnos y en el Comparador de dos números, para realizar la conexión entre las salidas de los circuitos y el display de 7 segmentos hicimos uso de un Decodificador cuyas características se muestran en la tabla #.
-Al implementar el Circuito Comparador de dos números de dos bits cada uno en la aplicación App Inventor, se necesita una herramienta para utilizar el programa creado por tal motivo se muestra en la tabla # las  aplicaciones que se uso para comprobar el programa.
-![jd1]( https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/jD1.png)
+En el circuito Asignador de Turnos para realizar la conexión entre las salidas de los circuitos y el display de 7 segmentos hicimos uso de un Decodificador  BCD de 7 segmentos  de ánodo común cuyas características se muestran en la tabla 9.
+
+| **Código**|**Características**	|    
+   |-------|--------------|
+   |    7447  |  - Cada combinación de valores de las entradas activa varias salidas, en lugar de una sola.
+   
+   - Tiene cuatro líneas de entrada en código BCD y salidas capaces de excitar un display de siete segmentos para representar cualquier dígito de 0 a 9.
+  
+- Como existen dos tipos de decodificadores ánodo común y catodo común, existen dos tipos de display de 7 segmentos.
+Evidentemente, decodificador y display tienen que ser del mismo tipo para poder ser conectados.
+
+Los displays de 7 segmentos son dispositivos que se utilizan para visualizar información.
+
+Cada segmento de un display está constituído por un LED.   |  
+
+ En las sisguientes imagenes se muestra el decoficador que usamos en el Constructor Virtual.
+
+![jD1]( https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/jD1.png)
 
 ![jd2]( https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/jd2.png)
 
 ![jd3]( https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/jd3.png)
 
-![jd4] https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/jd4.png
+![jd4]( https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/jd4.png)
+
+Al implementar el Circuito Comparador de dos números de dos bits cada uno en la aplicación App Inventor, se necesita una herramienta para utilizar el programa creado por tal motivo se muestra en la tabla # las  aplicaciones que se uso para comprobar el programa.
+
+|                 **Herramientas de Software**       |                  **Descripción**                      |
+|----------------------------------------------------|-------------------------------------------------------|
+|    Emulador de MIT App Inventor para computadores. | La aplicación MIT App Inventor te da directamente el emulador para probar el                                                          programa que estas creando.                             |
+|Emulador de MIT App Inventor para sistemas Android. | Se puede descargar directamente de una tienda de aplicaciones. Ejemplo: Play                                                          Store                                                   |
+|                       BLUESTACKS                    | Es un emulador de Android que se utiliza en la computadora y permite descargarse                                                      el MIT App Inventor para probar el programa creado.      |                          
 
 
 
