@@ -171,17 +171,13 @@ En el circuito Asignador de Turnos para realizar la conexión entre las salidas 
 | **Código**|**Características**	|    
    |-------|--------------|
    |    7447  |  - Cada combinación de valores de las entradas activa varias salidas, en lugar de una sola.
-   
-   - Tiene cuatro líneas de entrada en código BCD y salidas capaces de excitar un display de siete segmentos para representar cualquier dígito de 0 a 9.
-  
-- Como existen dos tipos de decodificadores ánodo común y catodo común, existen dos tipos de display de 7 segmentos.
-Evidentemente, decodificador y display tienen que ser del mismo tipo para poder ser conectados.
+                 - Tiene cuatro líneas de entrada en código BCD y salidas capaces de excitar un display de siete segmentos para         representar cualquier dígito de 0 a 9.
+                 - Como existen dos tipos de decodificadores ánodo común y catodo común, existen dos tipos de display de 7 segmentos.
+                 - Evidentemente, decodificador y display tienen que ser del mismo tipo para poder ser conectados.
+                 - Los displays de 7 segmentos son dispositivos que se utilizan para visualizar información.
+                 -Cada segmento de un display está constituído por un LED.   |  
 
-Los displays de 7 segmentos son dispositivos que se utilizan para visualizar información.
-
-Cada segmento de un display está constituído por un LED.   |  
-
- En las sisguientes imagenes se muestra el decoficador que usamos en el Constructor Virtual.
+ A continuacion se muestra el display de 7 segmentos utilizado en la simulacion del Constructor Virtual.
 
 ![jD1]( https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/jD1.png)
 
@@ -190,6 +186,7 @@ Cada segmento de un display está constituído por un LED.   |
 ![jd3]( https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/jd3.png)
 
 ![jd4]( https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/jd4.png)
+
 
 Al implementar el Circuito Comparador de dos números de dos bits cada uno en la aplicación App Inventor, se necesita una herramienta para utilizar el programa creado por tal motivo se muestra en la tabla # las  aplicaciones que se uso para comprobar el programa.
 
@@ -217,16 +214,27 @@ ANEXOS
 
 Comparador Binario es una aplicación para Android que permitirá realizar la comparación de mayor, igual y menor entre dos números binarios de dos bits de una manera fácil y sencilla.
 1. Ingresar los números binarios que desee comparar.
+
 ![MFig6](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/MFig6.PNG)
+
 Fig. Ingreso de números
+
 2. Seleccionar el botón Comparar para realizar la operación.
+
 ![MFig7](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/MFig7.PNG)
+
 Fig. Selección del "Comparar"
+
 3. La respuesta de la comparación se verá reflejada en un color dentro del campo de texto correspondiente al valor verdadero acompañado del número cero que debe aparecer en cuando hayan ocurrido uno de los tres casos.
+
 ![MFig8](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/MFig8.PNG)
+
 Fig. Resultado obtenido 
+
 4. Pulsar el botón Borrar para limpiar la pantalla e ingresar nuevos valores.
+
 Fig. Selección del "Borrar"
+
 ![MFig9](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/MFig9.PNG)
 
 15.2 HOJAS TÉCNICAS
