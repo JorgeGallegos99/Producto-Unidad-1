@@ -60,19 +60,19 @@ La operación de los circuitos combinacionales se entiende escribiendo las ecuac
   
 * Funcionamiento del Circuito  Votador se muestra en la figura 4.</p>
 
-![Fgimg1.PNG](https://github.com/CFernanda/Producto-Unidad-1/blob/master/Img/Fgimg1.PNG)
+![Fgimg1.PNG](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/Fgimg1.PNG)
 
    **Figura 4:** Funcionamiento del Circuito Votador, Entradas, Proceso y Salida.
    
  * Funcionamiento del Circuito  Asignador de turno se muestra en la figura 5.</p>
 
-![Fgimg3.PNG](https://github.com/CFernanda/Producto-Unidad-1/blob/master/Img/Fgimg3.PNG)
+![Fgimg3.PNG](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/Fgimg3.PNG)
 
    **Figura 5:** Funcionamiento del Circuito Asignador, Entradas, Proceso y Salidas,
    
 * Funcionamiento del Circuito  Comparador de dos números de dos bits se muestra en la figura 6.</p>
 
-![Fgimg2.PNG](https://github.com/CFernanda/Producto-Unidad-1/blob/master/Img/Fgimg2.PNG)
+![Fgimg2.PNG](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/Fgimg2.PNG)
 
    **Figura 6:** Funcionamiento del Circuito Comparador, Entradas, Proceso y Salidas.
 
@@ -115,9 +115,9 @@ En la Tabla 2 se muestra los componentes electrónicos Para la realización del 
 
    | **N°**|**Integrados**	|  **Códigos**    |     
    |-------|--------------|----------------|
-   |      1|   XOR	      |     7486       |
-   |      1|   AND        |     7408       |
-   |      1|   NOR        |     7408       |
+   |      1|   XOR	      |     74LS86       |
+   |      1|   AND        |     74LS08       |
+   |      1|   NOR        |     74LS04      |
 
 **Tabla 3. Componentes electronicos del Circuito Votador
   | **N°**|**Componentes Electronicos**	|    
@@ -131,26 +131,51 @@ En la Tabla 2 se muestra los componentes electrónicos Para la realización del 
 
    | **N°**|**Integrados**	|  **Códigos**    |     
    |-------|--------------|----------------|
-   |      1|   XOR	      |     7486       |
-   |      1|   AND        |     7408       |
-   |      1|   NOR        |     7408       |
+   |      1|   NOT	      |     74LS04        |
+   |      3|   AND        |     74LS08       |
+   |      1|   NOR        |     74LS32   |
+   |      1|   NAND       |     74LS00       |
 
-En la Tabla 3 se muestra los componeentes electrónicos usados para el Circuito Votador.
+**Tabla 5 se muestra los componeentes electrónicos usados para Circuito Asignador de Turnos**
    | **N°**|**Componentes Electronicos**	|    
    |-------|--------------|
-   |      5|  Resistencias de 330       |    
-   |      1|  Dip Switch 3 entradas       |     
+   |      6|  Resistencias de 330       |    
+   |      1|  Dip Switch 4 entradas       |     
    |      1|   Fuente de 5 V     |   
-   |      1|   Led Green  | 
-                       
-                       
+   |      1|   Led Yellow  | 
+   
+**Tabla 6: Datos de los integrados usados el Circuito Comparador de 2 Bits**
 
-
+   | **N°**|**Integrados**	|  **Códigos**    |     
+   |-------|--------------|----------------|
+   |      12|   NOR      |    74LS32         |
+   
+**Tabla 7 se muestra los componeentes electrónicos usados para  Comparador de 2 Bits**
+   | **N°**|**Componentes Electronicos**	|    
+   |-------|--------------|
+   |      25|  Resistencias de 330       |    
+   |      1|  Dip Switch 4 entradas       |     
+   |      1|   Fuente de 5 V     |   
+   |      3|   Led Green  | 
+   |      3|   display de 7 segmentos  | 
+                       
+                      
 7. MAPA DE VARIABLES
 
 8. EXPLICACIÓN DEL CÓDIGO FUENTE
 
 9. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
+En el circuito Asignador de Turnos y en el Comparador de dos números, para realizar la conexión entre las salidas de los circuitos y el display de 7 segmentos hicimos uso de un Decodificador cuyas características se muestran en la tabla #.
+Al implementar el Circuito Comparador de dos números de dos bits cada uno en la aplicación App Inventor, se necesita una herramienta para utilizar el programa creado por tal motivo se muestra en la tabla # las  aplicaciones que se uso para comprobar el programa.
+![jd1]( https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/jD1.png)
+
+![jd2]( https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/jd2.png)
+
+![jd3]( https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/jd3.png)
+
+![jd4] https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/jd4.png
+
+
 
 10. APORTACIONES
 
