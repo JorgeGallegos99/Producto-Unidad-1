@@ -100,7 +100,7 @@ Así, un circuito combinacional que tiene 3 entradas: A, B y C, y dos salidas F,
 
 **Figura 2:** Circuito combinacional con compuertas lógicas
 
-Los dispositivos electrónicos más elementales son las puertas lógicas y los bloques lógicos, que forman los circuitos lógicos. Estos últimos se pueden ver como un conjunto de dispositivos que manipulan de una manera determinada las señales electrónicas que les llegan (las señales de entrada), y generan como resultado otro conjunto de señales (las señales de salida). 
+<p style="text-align: justify;"> Los dispositivos electrónicos más elementales son las puertas lógicas y los bloques lógicos, que forman los circuitos lógicos. Estos últimos se pueden ver como un conjunto de dispositivos que manipulan de una manera determinada las señales electrónicas que les llegan (las señales de entrada), y generan como resultado otro conjunto de señales (las señales de salida). 
 Existen dos grandes tipos de circuitos lógicos: 
 
 •	Los circuitos combinacionales, que se caracterizan porque el valor de las señales de salida en un momento determinado depende del valor de las señales de entrada en ese mismo momento. 
@@ -287,6 +287,7 @@ El análisis se realizó a través de la siguiente tabla:
 **Tabla 9: TABLA DE VERDAD**
 
 |**A| B | C |   F**  | 
+|---|---|-- |  ----- | 
 | 0 | 0 | 0 | **0**  | 
 | 0 | 0 | 1 | **0**  | 
 | 0 | 1 | 0 | **0**  | 
