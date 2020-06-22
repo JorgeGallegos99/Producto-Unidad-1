@@ -149,7 +149,7 @@ A continuación se muestran los diagramas Electronicos de lasimulacion del dise�
    
 *Circuito Asignador de Turnos*
 
-![jDiagramaElectronico.png](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/jDiagramaElectronico.png)
+![jdiagramaelectrico.png](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/jdiagramaelectrico.png)
 
    **Figura 8:** Diseño de Circuito Asignador de Turnos 
 
@@ -162,8 +162,9 @@ A continuación se muestran los diagramas Electronicos de lasimulacion del dise�
  **A continuación se muestra los diagramas Electrónicos en el laboratorio Virtual**
  
  *Circuito Votador*
+ 
+![Fgimg6.PNG](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/Fgimg6.PNG)
 
- ![Fgimg6](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/Fgimg6)
 
    **Figura 10:** Implementación de Circuito Votador 
    
