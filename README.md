@@ -180,9 +180,10 @@ A continuación se muestran los diagramas Electronicos de lasimulacion del dise�
  
  Problema 3 implementado en la aplicacion App Inventor.
  
- ![Fgimg4.PNG](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/Fgimg4.PNG)
+ ![Fgimg4.png](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/Fgimg4.png)
 
    **Figura 10:** Diagrama de Flujo 
+   
    
  
 ## 6. LISTA DE COMPONENTES
@@ -524,9 +525,12 @@ Para poder implementar el display de 7 segmentos (ánodo común) en los circuito
 
 
 ## 11. CONCLUSIONES
-
+* Para desarrollar la implementación de los circuitos asignados previamente se realizo el análisis correspondiente en el cual definimos las variables de entrada, las funciones que debe realizar el circuito y las variables de salida, posterior a este análisis se realizo las correspondientes simulaciones para comprobar que el análisis que hicimos fue el correcto, por ultimo armamos los circuitos en el laboratorio virtual
+* El uso de los simuladores virtuales nos ayudo a comprender de mejor manera el funcionamiento de nuestro cicuito, ademas a traves de los mismoc comprobamos que las funciones obtenidas de los circuitos estaba correctamente simplificadas
+* Para el desarrollo del programa en AppInventor se elegio el tercer enunciado el cual comparaba dos numeros ingresando y nos devolvia si uno de los numero era mayor, menos o igual que el otro
 
 ## 12. RECOMENDACIONES
+* 
 
 ## 13. CRONOGRAMA
 ![jcronograma]( https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/jcronograma.png)
