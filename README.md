@@ -76,7 +76,7 @@ Shri G.S. Institute of Technology and Science,Indore,M.P.,India,452003
 Shri G.S. Institute of Technology and Science,Indore,M.P.,India,452003
 
 **Fecha y lugar de publicación:**
-27-28 DE Julio de 2018
+ 27-28 DE Julio de 2018
 
  En la conferencia :2018 International Conference on Recent Innovations in Electrical, Electronics & Communication Engineering (ICRIEECE)
  **Lugar:** Bhubaneswar, India, India
@@ -84,15 +84,15 @@ Shri G.S. Institute of Technology and Science,Indore,M.P.,India,452003
  Este Articulo tiene relacion con el presente trabajo ya que ambos realizan comparadores pero de diferentes bits, sin embargo la implementacion se realiza de manera análoga con compuertas Nor y  los autores buscan primero hacerlo de forma general basandose en la potencia y en este trabajo se realizo directamente la comparacion teniendo en cuenta solo el problema planteado.
 
 ## 4.  MARCO TEÓRICO
-<p style="text-align: justify;">Un circuito combinacional es un circuito electrónico, en el que el valor de sus salidas en un determinado instante, dependen del valor de las entradas en ese mismo instante. Es decir, es un circuito que carece de memoria. Trabajan con números, y con la tecnología con la que están realizados, estos números están representados en binario (Peiron Guárdia & Sánchez Carracedo, 2015).</p>
+Un circuito combinacional es un circuito electrónico, en el que el valor de sus salidas en un determinado instante, dependen del valor de las entradas en ese mismo instante. Es decir, es un circuito que carece de memoria. Trabajan con números, y con la tecnología con la que están realizados, estos números están representados en binario (Peiron Guárdia & Sánchez Carracedo, 2015).
 
 ![jf1]( https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/jf1.png)
 
    **Figura 1:** Diagrama de un circuito lógico combinacional
 
-<p style="text-align: justify;"> Es un circuito combinacional con "m” entradas y "n" salidas. Las salidas que se obtengan en un determinado instante van a depender de las entradas en ese preciso instante. Estos circuitos se caracterizan porque no almacenan información. Las salidas están relacionadas con las entradas a través de una función booleana.</p>
+Es un circuito combinacional con "m” entradas y "n" salidas. Las salidas que se obtengan en un determinado instante van a depender de las entradas en ese preciso instante. Estos circuitos se caracterizan porque no almacenan información. Las salidas están relacionadas con las entradas a través de una función booleana.
 
-<p style="text-align: justify;"> Cada bit de salida de un circuito combinacional, se obtiene mediante una función booleana aplicado a las variables de entrada. Así, si un circuito tiene n salidas, necesitaremos n funciones booleanas para caracterizarlo.</p>
+Cada bit de salida de un circuito combinacional, se obtiene mediante una función booleana aplicado a las variables de entrada. Así, si un circuito tiene n salidas, necesitaremos n funciones booleanas para caracterizarlo.
 
 Así, un circuito combinacional que tiene 3 entradas: A, B y C, y dos salidas F, G, que son dos funciones booleanas que dependen de las variables de entrada: F (A, B, C) y G (A, B, C) (Ferrera , 2016).
 
@@ -100,14 +100,13 @@ Así, un circuito combinacional que tiene 3 entradas: A, B y C, y dos salidas F,
 
 **Figura 2:** Circuito combinacional con compuertas lógicas
 
-<p style="text-align: justify;"> Los dispositivos electrónicos más elementales son las puertas lógicas y los bloques lógicos, que forman los circuitos lógicos. Estos últimos se pueden ver como un conjunto de dispositivos que manipulan de una manera determinada las señales electrónicas que les llegan (las señales de entrada), y generan como resultado otro conjunto de señales (las señales de salida). 
-Existen dos grandes tipos de circuitos lógicos: </p> 
+Los dispositivos electrónicos más elementales son las puertas lógicas y los bloques lógicos, que forman los circuitos lógicos. Estos últimos se pueden ver como un conjunto de dispositivos que manipulan de una manera determinada las señales electrónicas que les llegan (las señales de entrada), y generan como resultado otro conjunto de señales (las señales de salida). 
+Existen dos grandes tipos de circuitos lógicos: 
 
-<p style="text-align: justify;">•	Los circuitos combinacionales
-es, que se caracterizan porque el valor de las señales de salida en un momento determinado depende del valor de las señales de entrada en ese mismo momento. 
+•	Los circuitos combinacionales, que se caracterizan porque el valor de las señales de salida en un momento determinado depende del valor de las señales de entrada en ese mismo momento. 
   
 •	Los circuitos secuenciales, en los que el valor de las señales de salida en un momento determinado depende de los valores que han llegado por las señales de entrada desde la puesta en funcionamiento del circuito. Por tanto, tienen capacidad de memoria.
-La operación de los circuitos combinacionales se entiende escribiendo las ecuaciones booleanas y sus respectivas tablas de verdad (Abad, 2017).</p>
+La operación de los circuitos combinacionales se entiende escribiendo las ecuaciones booleanas y sus respectivas tablas de verdad (Abad, 2017).
 
 ![jf3](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/jf3.png)
 
@@ -117,21 +116,21 @@ La operación de los circuitos combinacionales se entiende escribiendo las ecuac
 
 **5.1 Diagramas de bloques**
 
-<p style="text-align: justify;">Los tres circuitos  poseen un diagrama de bloques para explicar que  es lo que hace cada uno para resolver el problema propuesto.</p>
+Los tres circuitos  poseen un diagrama de bloques para explicar que  es lo que hace cada uno para resolver el problema propuesto.
   
-* Funcionamiento del Circuito  Votador se muestra en la figura 4.</p>
+* Funcionamiento del Circuito  Votador se muestra en la figura 4.
 
 ![Fgimg1.PNG](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/Fgimg1.PNG)
 
    **Figura 4:** Funcionamiento del Circuito Votador, Entradas, Proceso y Salida.
    
- * Funcionamiento del Circuito  Asignador de turno se muestra en la figura 5.</p>
+ * Funcionamiento del Circuito  Asignador de turno se muestra en la figura 5.
 
 ![Fgimg3.PNG](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/Fgimg3.PNG)
 
    **Figura 5:** Funcionamiento del Circuito Asignador, Entradas, Proceso y Salidas,
    
-* Funcionamiento del Circuito  Comparador de dos números de dos bits se muestra en la figura 6.</p>
+* Funcionamiento del Circuito  Comparador de dos números de dos bits se muestra en la figura 6.
 
 ![Fgimg2.PNG](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/Fgimg2.PNG)
 
@@ -170,19 +169,22 @@ A continuación se muestran los diagramas Electronicos de lasimulacion del dise�
    
 *Circuito Asignador de Turnos*
    
+   ![jimplementacio.png](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/jimplementacio.png)
+   
    **Figura 11:** Implementación de Circuito Asignador de Turnos
 
 *Circuito Comparador *
 
+![MImplementacionConstructor.PNG](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/MImplementacionConstructor.PNG)
    **Figura 12:** Implementación de Circuito Comparador. 
    
  **5.3 Diagrama de Flujo**
  
- Problema 3 implementado en la aplicacion App Inventor.
+ El Problema 3 fue implementado en la aplicacion App Inventor, a continuación se muestra el diagrama de flujo que tiene la aplicación para resolver el problema de comparar dos números.
  
  ![Fgimg4.png](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/Fgimg4.png)
 
-   **Figura 10:** Diagrama de Flujo 
+   **Figura 13:** Diagrama de Flujo 
    
    
  
@@ -198,13 +200,11 @@ En la Tabla 1 se muestra las herramientas  de software usadas para la simulacion
    |       Constructor Virtual             |
    |          App Inventor                 | 
    
-En la Tabla 2 se muestra los componentes electrónicos Para la realización del Circuito Votador.
+**Tabla 2: Datos de los integrados usados para el diseño de Cicruito Votador**
 
-**Tabla 2: Datos de los integrados usados para el diseño de los 3 circuitos.**
-
-   | **N°**|**Integrados**	|  **Códigos**    |     
+   | **N°  |   Integrados |   Códigos**    |     
    |-------|--------------|----------------|
-   |      1|   XOR	      |     74LS86       |
+   |      1|   XOR	  |     74LS86       |
    |      1|   AND        |     74LS08       |
    |      1|   NOR        |     74LS04      |
 
@@ -218,21 +218,22 @@ En la Tabla 2 se muestra los componentes electrónicos Para la realización del 
    
 **Tabla 4: Datos de los integrados usados el Circuito Asignador de Turnos**
 
-   | **N°**|**Integrados**	|  **Códigos**    |     
+   | **N°**|**Integrados**|  **Códigos**    |     
    |-------|--------------|----------------|
-   |      1|   NOT	      |     74LS04        |
+   |      1|   NOT	  |     74LS04        |
    |      3|   AND        |     74LS08       |
    |      1|   NOR        |     74LS32   |
    |      1|   NAND       |     74LS00       |
+   |      1|   DECODIFICADOR BCD-7 SEGMENTOS    |     7447       |
 
 **Tabla 5 se muestra los componeentes electrónicos usados para Circuito Asignador de Turnos**
    | **N°**|**Componentes Electronicos**	|    
    |-------|--------------|
-   |      6|  Resistencias de 330       |    
+   |      6|  Resistencias de 100      |    
    |      1|  Dip Switch 4 entradas       |     
    |      1|   Fuente de 5 V     |   
    |      1|   Led Yellow  | 
-   |      3|   display de 7 segmentos  |
+   |      1|   display de 7 segmentos  |
    
 **Tabla 6: Datos de los integrados usados el Circuito Comparador de 2 Bits**
 
@@ -243,61 +244,28 @@ En la Tabla 2 se muestra los componentes electrónicos Para la realización del 
 **Tabla 7: se muestra los componeentes electrónicos usados para  Comparador de 2 Bits**
    | **N°**|**Componentes Electronicos**	|    
    |-------|--------------|
-   |      25|  Resistencias de 330       |    
+   |     25|  Resistencias de 330       |    
    |      1|  Dip Switch 4 entradas       |     
    |      1|   Fuente de 5 V     |   
-   |      3|   Led Green  | 
+   |      3|   Led Green         | 
    |      3|   display de 7 segmentos  | 
                        
                       
-### 7. MAPA DE VARIABLES
+## 7. MAPA DE VARIABLES
 **Tabla 8: Mapa de variables**
 
 ![JMapaVariables.PNG](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/JMapaVariables.PNG)
                                                                                                                          
-### 8. EXPLICACIÓN DEL CÓDIGO FUENTE
-
-La pantalla principal de la aplicación llamada “Comparador Binario” se presenta de la siguiente manera, mostrando los dos números para ingresar por el teclado, los campos de texto  que muestran los resultados junto con los botones de comparar y borrar.
-
-![MFig0](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/MFig0.PNG)
-
-**Figura 10:** Pantalla de la aplicación Comparador Binario
-
-1. Se crearon 2 variables globales denominadas:
-
-![MFig1](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/MFig1.PNG)
-
-**Figura 11:** Inicialización de variables
-
-2. Se creó el ProcesoTranformar donde se asignan a las variables globales la representación decimal  de los números ingresados por teclado.
-![MFig2](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/MFig2.PNG)
-
-**Figura 12:** Proceso Transformar 
-
-3. Se creó el ProcesoComparar en el que se comparan los valores resultantes de la transformación del proceso anterior, estableciendo condicionales para los siguientes casos: A=B, A<B Y A>B
-
-De esta manera se asignaron dos resultados para cada caso propuesto, asignando un color en la casilla (como si fuera un led) de respuesta junto con el valor de cero (como si fuera un display) si ocuurren uno de los tres casos.
-
-![MFig3](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/MFig3.PNG)
-
-**Figura 13:** ProcesoComparar
-
-4. Se establecieron dos botones de selección en la ventana principal del programa:
-* Cuando el BotonComparar hace clic, se ejecutan los proncesos de Transformar y Comparar 
-	
-![MFig4](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/MFig4.PNG)
-	
-**Figura 14:** Boton Comparar
-
-* Cuando el BotonBorrar hace clic, se reestablecen todos los valores
-
-![MFig5](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/MFig5.PNG)
-
-**Figura 15: ** Boton Borrar
+## 8. EXPLICACIÓN DEL CÓDIGO FUENTE
 
 **Explicacción del diseño los circuitos**
+
 **1. Circuito Votador**
+Las normas de seguridad de los modernos aviones exigen que, para señales de vital importancia para la seguridad del aparato, los circuitos deben estar triplicados para que el fallo de uno de ellos no produzca una catástrofe. En caso de que los tres circuitos no produzcan la misma salida, ésta se escogerá mediante votación. Diseñe el circuito "votador" que ha de utilizarse para obtener como resultado el valor mayoritario de las tres entradas.
+
+*ANÁLISIS*
 Se pretende diseñar un circuito Votador que tenga como entrada tres circuitos que pueden estar estables "1" o con falla "0", y que en la salida detecte el valor mayoritario de los tres circuitos. 
+
 **Establecer las entradas del circuito**
 
 A: Circuito 1		
@@ -307,11 +275,17 @@ Cada una de las entradas representa un circuito de manera que sabremos si se enc
 Por lo tanto, se tienen 3 entradas y el número de combinaciones está dado por la expresión: 
 Combinaciones=2^n
 Combinaciones=2^3=8
+
 **Establecer las salidas del circuito**
+
 F : El Circuito Votador Funciona si la mayoria esta estable.
 
 **Formulación de la tabla de verdad**
+
 El análisis se realizó a través de la siguiente tabla:
+
+**Tabla 9: TABLA DE VERDAD**
+
 |**A| B | C |   F**  | 
 | 0 | 0 | 0 | **0**  | 
 | 0 | 0 | 1 | **0**  | 
@@ -321,6 +295,7 @@ El análisis se realizó a través de la siguiente tabla:
 | 1 | 0 | 1 | **1**  | 
 | 1 | 1 | 0 | **1**  |
 | 1 | 1 | 1 | **1**  | 
+
 **Obtener las funciones simplificadas**
 
 Utilizamos los mintérminos para realizar la implementación del circuito ya que tenemos gual numero de 0y de 1 ademas  se usa lógica positiva
@@ -335,10 +310,12 @@ Utilizamos los mintérminos para realizar la implementación del circuito ya que
 Entonces la funcion a implementarse será.
 	**F = C(A⊕B)+AC **
 
-
 **2. Circuito asignador de turnos**
+El horario laboral de una factoría es de 8 horas diarias, divididas en tres turnos: de 8 a 11 (primer turno), de 11 a 13 (segundoturno), de 13 a 16 (descanso) y de 16 a 19 (tercer turno).
 
+*ANÁLISIS*
 Se pretende diseñar un circuito que tenga como entradas la representación binaria de la hora actual menos ocho y que proporcione a la salida el número de turno que está trabajando (si procede) o "0" si es hora de descanso.
+
 **Establecer las entradas del circuito**
 
 A: Bit más significativo de la hora ingresada		
@@ -358,9 +335,12 @@ Por lo tanto, las salidas del circuito son dependientes del valor de los número
 **Formulación de la tabla de verdad**
 El análisis se realizó a través de la siguiente tabla:
 
+**Tabla10. Tabla de Verdad Circuito de Asignación**
+
 |**TURNO	|HORAS	|HORAS – 8     |Y| Z**|
-|1	|8 – 9 – 10	|0 – 1 – 2	|0|1|
-|2	|11 – 12	|3 – 4		|1| 0|
+|---------------|-------|--------------|-|----|
+|1	 |8 – 9 – 10	|0 – 1 – 2	|0|1|
+|2	 |11 – 12	|3 – 4		|1| 0|
 |DESCANSO|13 – 14 – 15 | 5 – 6 – 7     | 0|0|
 |3	|16 – 17 – 18	|8 – 9 – 10    |1 |1|
 
@@ -379,7 +359,7 @@ Tomando en cuentas estas consideraciones armamos la tabla de verdad.
 |9  |1	|0	|0	|1	|1	|1    |
 |10 |1	|0	|1	|0	|1	|1    |
 
-**4.	Obtener las funciones simplificadas**
+**Obtener las funciones simplificadas**
 
 Para realizar la implementación del circuito, podemos escoger los mintérminos o maxtérminos. Debido a que en las funciones existen más 1 que 0, se tomarán los mintérminos. Usando lógica positiva 
 
@@ -395,10 +375,17 @@ Y = AB’C’ + A’BC’D’ + A’B’CD + AB’CD’
 
 
 **3. Circuito comparador**
+Se pretende diseñar un circuito comparador de 2 números de 2 bits, A=(a1, ao)y B=(b1,bo). Dicho circuito deberá tener tres salidas M, l, m, de tal forma que :
+M = 1 si A>8
+1= 1 si A=B
+m = 1 si A<8
+Diséñese exclusivamente con puertas NOR .
+
+*ANÁLISIS*
 
 Se pretende diseñar un circuito comparador de dos números binarios cada uno de dos bits para los siguientes tres casos: A<B, A=B, A>B. Además, a la salida de cada función en el circuito deberá estar un display que muestre el número cero para cada uno de los casos.
 
-**1. Establecer las entradas del circuito:**
+**Establecer las entradas del circuito:**
 
 A1:	Bit más significativo del número A
 
@@ -410,7 +397,7 @@ B0:	Bit menos significativo del número  B
 
 Por lo tanto, se tienen 4 entradas y el número de combinaciones está dado por la expresión: 
 
-**Combinaciones=2^n**
+Combinaciones=2^n
 
 C=2^4=16
 
@@ -421,7 +408,7 @@ A>B	M	Cuando A es mayor a B
 
 Por lo tanto, las salidas del circuito son dependientes del valor de los números ingresados.
 
-**3. Formulación de tabla de verdad:**
+**Formulación de tabla de verdad:**
 
 Se analizan los dos números ingresados:
 
@@ -437,6 +424,7 @@ Se analizan los dos números ingresados:
 A toma el valor de 3 y B toma el valor de 0, entonces A>B y la función M es verdadera y toma el valor de uno lógico mientras que las otras dos tomarán el valor de cero lógico.
 
 - Este mismo análisis se realiza hasta completar las 16 combinaciones dando como resultado la siguiente tabla de verdad:
+**Tabla 11: Tabla de verdad **
 
 |       |        |      |   |A<B |	A=B |	A>B|
 |-------|-------|-------|---|---|---|---|
@@ -472,19 +460,60 @@ Debido a que en las funciones existen más 1 que 0, se tomarán los mintérminos
 
 *Para A=B:
 
-**i=**A1'A0'B1'B0'+A1'A0B1'B0+A1A0'B1B0'+A1A0B1B0
+**i=** A1'A0'B1'B0'+A1'A0B1'B0+A1A0'B1B0'+A1A0B1B0
 
 *Simplificación:
 
-**i=**A1'A0'B1'B0'+A1'A0B1'B0+A1A0B1B0+A1A0'B1B0'
+**i=** A1'A0'B1'B0'+A1'A0B1'B0+A1A0B1B0+A1A0'B1B0'
 
 *Para A>B:
 
-**M=**A1'A0B1'B0'+A1A0'B1'B0'+A1A0'B1'B0+A1A0B1'B0'+A1A0B1'B0+A1A0B1B0'
+**M=** A1'A0B1'B0'+A1A0'B1'B0'+A1A0'B1'B0+A1A0B1'B0'+A1A0B1'B0+A1A0B1B0'
 
 *Simplificación:*
 
 **M=** A1B1'+A0B1'B0'+A1A0B0'
+
+# **EL problema 3 se implemento en el App Inventor luego de analizarle  a continuacion la explicación del programa “Comparador Binario”**
+
+La pantalla principal de la aplicación llamada “Comparador Binario” se presenta de la siguiente manera, mostrando los dos números para ingresar por el teclado, los campos de texto  que muestran los resultados junto con los botones de comparar y borrar.
+
+![MFig0](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/MFig0.PNG)
+
+**Figura 14:** Pantalla de la aplicación Comparador Binario
+
+1. Se crearon 2 variables globales denominadas:
+
+![MFig1](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/MFig1.PNG)
+
+**Figura 15:** Inicialización de variables
+
+2. Se creó el ProcesoTranformar donde se asignan a las variables globales la representación decimal  de los números ingresados por teclado.
+![MFig2](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/MFig2.PNG)
+
+**Figura 16:** Proceso Transformar 
+
+3. Se creó el ProcesoComparar en el que se comparan los valores resultantes de la transformación del proceso anterior, estableciendo condicionales para los siguientes casos: A=B, A<B Y A>B
+
+De esta manera se asignaron dos resultados para cada caso propuesto, asignando un color en la casilla (como si fuera un led) de respuesta junto con el valor de cero (como si fuera un display) si ocuurren uno de los tres casos.
+
+![MFig3](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/MFig3.PNG)
+
+**Figura 17:** ProcesoComparar
+
+4. Se establecieron dos botones de selección en la ventana principal del programa:
+* Cuando el BotonComparar hace clic, se ejecutan los proncesos de Transformar y Comparar 
+	
+![MFig4](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/MFig4.PNG)
+	
+**Figura 18:** Boton Comparar
+
+* Cuando el BotonBorrar hace clic, se reestablecen todos los valores
+
+![MFig5](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/MFig5.PNG)
+
+**Figura 19: ** Boton Borrar
+
 
 ### 9. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
 
@@ -494,7 +523,21 @@ En el circuito Asignador de Turnos para realizar la conexión entre las salidas 
 |---------- |--------------|
 |       7447|  - Cada combinación de valores de las entradas activa varias salidas, en lugar de una sola.                                                             - Tiene cuatro líneas de entrada en código BCD y salidas capaces de excitar un display de siete segmentos para representar cualquier dígito de 0 a 9.                                                                                                                - Como existen dos tipos de decodificadores ánodo común y catodo común, existen dos tipos de display de 7 segmentos.                    - Evidentemente, decodificador y display tienen que ser del mismo tipo para poder ser conectados.                                        - Los displays de 7 segmentos son dispositivos que se utilizan para visualizar información.                                              -Cada segmento de un display está constituído por un LED.|  
 
- A continuacion se muestra el display de 7 segmentos utilizado en la simulacion del Constructor Virtual.
+Al implementar el Circuito Comparador de dos números de dos bits cada uno en la aplicación App Inventor, se necesita una herramienta para utilizar el programa creado por tal motivo se muestra en la tabla # las  aplicaciones que se uso para comprobar el programa.
+
+|                 **Herramientas de Software**       |                  **Descripción**                      |
+|----------------------------------------------------|-------------------------------------------------------|
+|    Emulador de MIT App Inventor para computadores. | La aplicación MIT App Inventor te da directamente el emulador para probar el                                                          programa que estas creando.                             |
+|Emulador de MIT App Inventor para sistemas Android. | Se puede descargar directamente de una tienda de aplicaciones. Ejemplo: Play                                                          Store                                                   |
+
+## 10. APORTACIONES
+
+*Para poder implementar el display de 7 segmentos (ánodo común) en los circuitos asignados se utilizó el integrado 7447 correspondiente a un decodificador BCD a 7 segmentos, el cual nos ayudó a representar visualmente el resultado de las salidas correspondientes en sistema decimal.*
+![jintegrado]( https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/jintegrado.jpg)
+
+**Figura17:** Integrado del Decodificador de BCD A 7 Segmentos 7447.
+ 
+ *El Display de 7 segmentos de ánodo común se utilizo en la simulacion del Constructor Virtual.
 
 ![jD1]( https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/jD1.png)
 
@@ -504,38 +547,25 @@ En el circuito Asignador de Turnos para realizar la conexión entre las salidas 
 
 ![jd4]( https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/jd4.png)
 
-**Figura 16:** Display de 7 segmentos
-
-Al implementar el Circuito Comparador de dos números de dos bits cada uno en la aplicación App Inventor, se necesita una herramienta para utilizar el programa creado por tal motivo se muestra en la tabla # las  aplicaciones que se uso para comprobar el programa.
-
-|                 **Herramientas de Software**       |                  **Descripción**                      |
-|----------------------------------------------------|-------------------------------------------------------|
-|    Emulador de MIT App Inventor para computadores. | La aplicación MIT App Inventor te da directamente el emulador para probar el                                                          programa que estas creando.                             |
-|Emulador de MIT App Inventor para sistemas Android. | Se puede descargar directamente de una tienda de aplicaciones. Ejemplo: Play                                                          Store                                                   |
-|                       BLUESTACKS                    | Es un emulador de Android que se utiliza en la computadora y permite descargarse                                                      el MIT App Inventor para probar el programa creado.      |                          
-
-
-
-## 10. APORTACIONES
-
-Para poder implementar el display de 7 segmentos (ánodo común) en los circuitos asignados se utilizó el integrado 7447 correspondiente a un decodificador BCD a 7 segmentos, el cual nos ayudó a representar visualmente el resultado de las salidas correspondientes en sistema decimal.
-![jintegrado]( https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/jintegrado.jpg)
-
-**Figura17:** Interado del Decodificador 7447.
+**Figura 18:** Display de 7 segmentos
 
 
 ## 11. CONCLUSIONES
+
 * Para desarrollar la implementación de los circuitos asignados previamente se realizo el análisis correspondiente en el cual definimos las variables de entrada, las funciones que debe realizar el circuito y las variables de salida, posterior a este análisis se realizo las correspondientes simulaciones para comprobar que el análisis que hicimos fue el correcto, por ultimo armamos los circuitos en el laboratorio virtual
-* El uso de los simuladores virtuales nos ayudo a comprender de mejor manera el funcionamiento de nuestro cicuito, ademas a traves de los mismoc comprobamos que las funciones obtenidas de los circuitos estaba correctamente simplificadas
+
+* El uso de los simuladores virtuales nos ayudo a comprender de mejor manera el funcionamiento de nuestro cicuito, ademas a traves de los mismoc comprobamos que las funciones obtenidas de los circuitos estaba correctamente simplificadas.
+
 * Para el desarrollo del programa en AppInventor se elegio el tercer enunciado el cual comparaba dos numeros ingresando y nos devolvia si uno de los numero era mayor, menos o igual que el otro
 
 ## 12. RECOMENDACIONES
-* 
-
+* Tener a la mano el Datasheet de todos los lementos que se van a utilizar, de ese modo se facilitara al momento de armar el circuito y mantener el orden con cada compuerta para no tener problemas.
+* Utilizar de manera correcta el algebra de boole ya que facilita la simplificacion, y permite tener una funcion optima para diseñar e implementar los Circuitos Digitales.
+* En el programa se debe ingresar números unicamente de dos bits para que funcione de manera correcta.
 ## 13. CRONOGRAMA
 ![jcronograma]( https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/jcronograma.png)
 
-**Figura 18 :** Cronograma realizado en Monday
+**Figura 19 :** Cronograma realizado en Monday
 
 ## 14. BIBLIOGRAFÍA
 Abad, P. (28 de Marzo de 2017). Sistemas Digitales . Obtenido de https://ocw.unican.es/pluginfile.php/313/course/section/261/tema_03.pdf
@@ -554,24 +584,23 @@ Comparador Binario es una aplicación para Android que permitirá realizar la co
 
 ![MFig6](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/MFig6.PNG)
 
-**Figura 19:** Ingreso de números
+**Figura 20:** Ingreso de números
 
 2. Seleccionar el botón Comparar para realizar la operación.
 
 ![MFig7](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/MFig7.PNG)
 
-**Figura 20:** Selección del "Comparar"
+**Figura 21:** Selección del "Comparar"
 
 3. La respuesta de la comparación se verá reflejada en un color dentro del campo de texto correspondiente al valor verdadero acompañado del número cero que debe aparecer en cuando hayan ocurrido uno de los tres casos.
 
 ![MFig8](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/MFig8.PNG)
 
-**Figura 21:** Resultado obtenido 
+**Figura 22:** Resultado obtenido 
 
 4. Pulsar el botón Borrar para limpiar la pantalla e ingresar nuevos valores.
 
-**Figura 22:**  Selección del "Borrar"
+**Figura 23:**  Selección del "Borrar"
 
 ![MFig9](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/MFig9.PNG)
 
-## 15.2 HOJAS TÉCNICAS
