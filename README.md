@@ -163,13 +163,8 @@ En la Tabla 2 se muestra los componentes electrónicos Para la realización del 
 ### 7. MAPA DE VARIABLES
 **Tabla 8: Mapa de variables**
 
-| **N°**|**VARIABLE**	  |  **Tipo    **     | **Descripción**    |   
-|-------|-------------- |------------------ |----------------    |
-|   Problema1|  * B1B0                                                                                                               * A1A0  |       Entrada     |* A1	Bit más significativo del número A                                                                                                                                                                                                  * A0	Bit menos significativo del número A                                                                                                                                                                                              *  B1	Bit más significativo del número B                                                                                                                                                                                                *  B0	Bit menos significativo del número B |
-                   M, l, n|        Salida     |  A<B	m	Cuando A es menor a B                                                                                                                                                                                                            A=B	i	Cuando A es igual a B                                                                                                                                                                                                            A>B	M	Cuando A es mayor a B|
-
+![JMapaVariables.PNG](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/JMapaVariables.PNG)
                                                                                                                          
-
 
 
 ### 8. EXPLICACIÓN DEL CÓDIGO FUENTE
