@@ -149,7 +149,7 @@ A continuación se muestran los diagramas Electronicos de lasimulacion del dise�
    
 *Circuito Asignador de Turnos*
 
-![jEsquemaElectronico](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/jDiagramaElectronico.png)
+![jDiagramaElectronico.png](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/jDiagramaElectronico.png)
 
    **Figura 8:** Diseño de Circuito Asignador de Turnos 
 
@@ -159,10 +159,30 @@ A continuación se muestran los diagramas Electronicos de lasimulacion del dise�
 
    **Figura 9:** Diseño de Circuito Comparador
    
- A continuación se muestra los diagramas Electrónicos en el laboratorio Virtual
- ![jEsquemaElectronico](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/jDiagramaElectronico.png)
+ **A continuación se muestra los diagramas Electrónicos en el laboratorio Virtual**
+ 
+ *Circuito Votador*
 
-   **Figura 8:** Diseño de Circuito Asignador de Turnos 
+ ![Fgimg6](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/Fgimg6)
+
+   **Figura 10:** Implementación de Circuito Votador 
+   
+*Circuito Asignador de Turnos*
+   
+   **Figura 11:** Implementación de Circuito Asignador de Turnos
+
+*Circuito Comparador *
+
+   **Figura 12:** Implementación de Circuito Comparador. 
+   
+ **5.3 Diagrama de Flujo**
+ 
+ Problema 3 implementado en la aplicacion App Inventor.
+ 
+ ![Fgimg4](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/Fgimg4)
+
+   **Figura 10:** Diagrama de Flujo 
+   
  
 ## 6. LISTA DE COMPONENTES
 
