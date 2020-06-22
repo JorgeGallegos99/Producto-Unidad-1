@@ -286,7 +286,7 @@ El análisis se realizó a través de la siguiente tabla:
 
 **Tabla 9: TABLA DE VERDAD**
 
-|**A| B | C |   F**  | 
+|**A| B | C |   F ** | 
 |---|---|-- |  ----- | 
 | 0 | 0 | 0 | **0**  | 
 | 0 | 0 | 1 | **0**  | 
@@ -425,15 +425,15 @@ Se analizan los dos números ingresados:
 A toma el valor de 3 y B toma el valor de 0, entonces A>B y la función M es verdadera y toma el valor de uno lógico mientras que las otras dos tomarán el valor de cero lógico.
 
 - Este mismo análisis se realiza hasta completar las 16 combinaciones dando como resultado la siguiente tabla de verdad:
+
 **Tabla 11: Tabla de verdad **
 
 |       |        |      |   |A<B |	A=B |	A>B|
 |-------|-------|-------|---|---|---|---|
-|**A1	|A0	|B1	|B0 |m  |i  |M**  |
-|-------|-------|-------|---|---|---|---|
+|A1	|A0	|B1	|B0 |m  |i  |M  |
 |0	|0	|0	|0  |0	|1	|0|
 |0	|0	|0	|1  |1	|0	|0|
-|0	|0	|1	|0	|1	|0	|0|
+|0	|0	|1	|0  |1	|0	|0|
 |0	|0	|1	|1	|1	|0	|0|
 |0	|1	|0	|0	|0	|0	|1|
 |0	|1	|0	|1	|0	|1	|0|
@@ -449,11 +449,11 @@ A toma el valor de 3 y B toma el valor de 0, entonces A>B y la función M es ver
 |1	|1	|1	|1	|0	|1	|0|
 
 
-4. Se btener las funciones resultantes simplificadas para realizar la implementación del circuito, para ello se pueden escoger mintérminos o maxtérminos. 
+Se debe obtener las funciones resultantes simplificadas para realizar la implementación del circuito, para ello se pueden escoger mintérminos o maxtérminos. 
 Debido a que en las funciones existen más 1 que 0, se tomarán los mintérminos.
 *Para A<B:
 
-**m=** A1'A0'B1'B0+A1'A0'B1B0'+A1'A0'B1B0+A1'A0B1B0'+A1'A0B1B0+A1A0'B1B0
+**m=**  A1'A0'B1'B0+A1'A0'B1B0'+A1'A0'B1B0+A1'A0B1B0'+A1'A0B1B0+A1A0'B1B0
 
 *Simplificación:
 
@@ -560,15 +560,19 @@ Al implementar el Circuito Comparador de dos números de dos bits cada uno en la
 * Para el desarrollo del programa en AppInventor se elegio el tercer enunciado el cual comparaba dos numeros ingresando y nos devolvia si uno de los numero era mayor, menos o igual que el otro
 
 ## 12. RECOMENDACIONES
+
 * Tener a la mano el Datasheet de todos los lementos que se van a utilizar, de ese modo se facilitara al momento de armar el circuito y mantener el orden con cada compuerta para no tener problemas.
 * Utilizar de manera correcta el algebra de boole ya que facilita la simplificacion, y permite tener una funcion optima para diseñar e implementar los Circuitos Digitales.
 * En el programa se debe ingresar números unicamente de dos bits para que funcione de manera correcta.
+
 ## 13. CRONOGRAMA
+
 ![jcronograma]( https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/jcronograma.png)
 
 **Figura 19 :** Cronograma realizado en Monday
 
 ## 14. BIBLIOGRAFÍA
+
 Abad, P. (28 de Marzo de 2017). Sistemas Digitales . Obtenido de https://ocw.unican.es/pluginfile.php/313/course/section/261/tema_03.pdf
 
 Ferrera , G. (17 de Diciembre de 2016). Electronica Digital . Obtenido de http://electronicadigital-circuitos.blogspot.com/2016/12/definicion-de-circuitos-combinacionales.html
@@ -581,6 +585,7 @@ Peiron Guárdia, M., & Sánchez Carracedo, F. (19 de Mayo de 2015). Circuitos lo
 ## 15.1 MANUAL DE USUARIO
 
 Comparador Binario es una aplicación para Android que permitirá realizar la comparación de mayor, igual y menor entre dos números binarios de dos bits de una manera fácil y sencilla.
+
 1. Ingresar los números binarios que desee comparar.
 
 ![MFig6](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/MFig6.PNG)
