@@ -138,7 +138,7 @@ Los tres circuitos  poseen un diagrama de bloques para explicar que  es lo que h
 
 **5.2 Diagramas Electrónico**
 
-A continuación se muestran los diagramas Electronicos de lasimulacion del diseños de los 3 circuitos. 
+A continuación se muestran los diagramas Electrónicos, simulacion del diseños de los 3 circuitos en Proteus. 
 
 *Circuito Votador*
 
