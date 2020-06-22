@@ -180,7 +180,7 @@ A continuaci√≥n se muestran los diagramas Electronicos de lasimulacion del dise√
  
  Problema 3 implementado en la aplicacion App Inventor.
  
- ![Fgimg4](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/Fgimg4)
+ ![Fgimg4.PNG](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/Fgimg4.PNG)
 
    **Figura 10:** Diagrama de Flujo 
    
