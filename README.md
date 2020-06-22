@@ -160,17 +160,25 @@ En la Tabla 2 se muestra los componentes electrónicos Para la realización del 
    |      3|   display de 7 segmentos  | 
                        
                       
-7. MAPA DE VARIABLES
+### 7. MAPA DE VARIABLES
+**Tabla 8: Mapa de variables**
+
+| **N°**|**VARIABLE**	|  **Tipo    **     | **Descripción**    |   
+|-------|-------------- |------------------|----------------|
+|   problema1    | * B1B0                                                                                                              * A1A0 |       Entrada  |A1	Bit más significativo del número A                                                                                A0	Bit menos significativo del número A                                                                            B1	Bit más significativo del número B                                                                              B0	Bit menos significativo del número B|
+                                                                                                                         
 
 
-8. EXPLICACIÓN DEL CÓDIGO FUENTE
 
-9. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
+### 8. EXPLICACIÓN DEL CÓDIGO FUENTE
+
+### 9. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
+
 En el circuito Asignador de Turnos para realizar la conexión entre las salidas de los circuitos y el display de 7 segmentos hicimos uso de un Decodificador  BCD de 7 segmentos  de ánodo común cuyas características se muestran en la tabla 9.
 
 | **Código**|**Características**	|    
 |---------- |--------------|
-|       7447|  - Cada combinación de valores de las entradas activa varias salidas, en lugar de una sola.                                            - Tiene cuatro líneas de entrada en código BCD y salidas capaces de excitar un display de siete segmentos para     representar cualquier dígito de 0 a 9.                                                                                                                - Como existen dos tipos de decodificadores ánodo común y catodo común, existen dos tipos de display de 7 segmentos.                    - Evidentemente, decodificador y display tienen que ser del mismo tipo para poder ser conectados.                                        - Los displays de 7 segmentos son dispositivos que se utilizan para visualizar información.                                              -Cada segmento de un display está constituído por un LED.|  
+|       7447|  - Cada combinación de valores de las entradas activa varias salidas, en lugar de una sola.                                                             - Tiene cuatro líneas de entrada en código BCD y salidas capaces de excitar un display de siete segmentos para representar cualquier dígito de 0 a 9.                                                                                                                - Como existen dos tipos de decodificadores ánodo común y catodo común, existen dos tipos de display de 7 segmentos.                    - Evidentemente, decodificador y display tienen que ser del mismo tipo para poder ser conectados.                                        - Los displays de 7 segmentos son dispositivos que se utilizan para visualizar información.                                              -Cada segmento de un display está constituído por un LED.|  
 
  A continuacion se muestra el display de 7 segmentos utilizado en la simulacion del Constructor Virtual.
 
@@ -193,16 +201,30 @@ Al implementar el Circuito Comparador de dos números de dos bits cada uno en la
 
 
 
-10. APORTACIONES
+## 10. APORTACIONES
+
+Para poder implementar el display de 7 segmentos (ánodo común) en los circuitos asignados se utilizó el integrado 7447 correspondiente a un decodificador BCD a 7 segmentos, el cual nos ayudó a representar visualmente el resultado de las salidas correspondientes en sistema decimal.
+![jintegrado]( https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/jintegrado.jpg)
+
 
 11. CONCLUSIONES
 
 
 12. RECOMENDACIONES
 
-13. CRONOGRAMA
-BIBLIOGRAFÍA
-Emplear normas APA para el informe e IEEE para el artículo
+## 13. CRONOGRAMA
+![jcronograma]( https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/jcronograma.png)
+
+**Figura :** Cronograma realizado en Monday
+
+## 14. BIBLIOGRAFÍA
+Abad, P. (28 de Marzo de 2017). Sistemas Digitales . Obtenido de https://ocw.unican.es/pluginfile.php/313/course/section/261/tema_03.pdf
+
+Ferrera , G. (17 de Diciembre de 2016). Electronica Digital . Obtenido de http://electronicadigital-circuitos.blogspot.com/2016/12/definicion-de-circuitos-combinacionales.html
+
+Peiron Guárdia, M., & Sánchez Carracedo, F. (19 de Mayo de 2015). Circuitos logicos Combinacionales. Obtenido de https://www.exabyteinformatica.com/uoc/Informatica/Fundamentos_de_computadores/Fundamentos_de_computadores_(Modulo_3).pdf
+
+
 
 ANEXOS
 15.1 MANUAL DE USUARIO
