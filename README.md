@@ -169,13 +169,13 @@ En la Tabla 2 se muestra los componentes electrónicos Para la realización del 
 En el circuito Asignador de Turnos para realizar la conexión entre las salidas de los circuitos y el display de 7 segmentos hicimos uso de un Decodificador  BCD de 7 segmentos  de ánodo común cuyas características se muestran en la tabla 9.
 
 | **Código**|**Características**	|    
-   |-------|--------------|
-   |    7447  |  - Cada combinación de valores de las entradas activa varias salidas, en lugar de una sola.
-                 - Tiene cuatro líneas de entrada en código BCD y salidas capaces de excitar un display de siete segmentos para         representar cualquier dígito de 0 a 9.
+|---------- |--------------|
+|       7447|  - Cada combinación de valores de las entradas activa varias salidas, en lugar de una sola.
+                 - Tiene cuatro líneas de entrada en código BCD y salidas capaces de excitar un display de siete segmentos para     representar cualquier dígito de 0 a 9.
                  - Como existen dos tipos de decodificadores ánodo común y catodo común, existen dos tipos de display de 7 segmentos.
                  - Evidentemente, decodificador y display tienen que ser del mismo tipo para poder ser conectados.
                  - Los displays de 7 segmentos son dispositivos que se utilizan para visualizar información.
-                 -Cada segmento de un display está constituído por un LED.   |  
+                 -Cada segmento de un display está constituído por un LED.|  
 
  A continuacion se muestra el display de 7 segmentos utilizado en la simulacion del Constructor Virtual.
 
