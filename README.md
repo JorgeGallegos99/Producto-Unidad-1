@@ -43,7 +43,7 @@ Shahrekord, Iran
 
 Este árticulo guarda relación con los problemas planteados, en que buscan resolver los circuitos al igual que se resolvieron los problemas pero ellos crean  un nuevo algoritmo usando lo conocido y se basan en la génetica de las compuertas con la finalidad de que la resolucion d estos circuitos se vuelva mas sencilla y se optimize el diseño de circuitos.
 
-**Diseño de circuitos combinacionales de preservación de paridad utilizando compuerta reversible
+**Diseño de circuitos combinacionales de preservación de paridad utilizando compuerta reversible**
 
 En este árticulo se diseña circuitos combinacionales para la preservacion de paridad mediante una puerta reversible que es creada, con el fin de buscar  la detección de errores en los sistemas digitales convencionales con la verificación de paridad es ahi donde utilizan la puerta logica llamada SMS integrada que tiene la propiedad de preservación de paridad y produce todas las puertas booleanas primitivas. 
 
@@ -81,7 +81,7 @@ Shri G.S. Institute of Technology and Science,Indore,M.P.,India,452003
  En la conferencia :2018 International Conference on Recent Innovations in Electrical, Electronics & Communication Engineering (ICRIEECE)
  **Lugar:** Bhubaneswar, India, India
  
- Este Articulo tiene relacion con el presente trabajo ya que ambos realizan comparadores pero de diferentes bits, sin embargo la implementacion se realiza de manera análoga con compuertas Nor y  los autores buscan primero hacerlo de forma general basandose en la potencia y en este trabajo se realizo directamente la comparacion teniendo en cuenta solo el problema planteado.
+<p style="text-align: justify;">       Este Articulo tiene relacion con el presente trabajo ya que ambos realizan comparadores pero de diferentes bits, sin embargo la implementacion se realiza de manera análoga con compuertas Nor y  los autores buscan primero hacerlo de forma general basandose en la potencia y en este trabajo se realizo directamente la comparacion teniendo en cuenta solo el problema planteado.
 
 ## 4.  MARCO TEÓRICO
 Un circuito combinacional es un circuito electrónico, en el que el valor de sus salidas en un determinado instante, dependen del valor de las entradas en ese mismo instante. Es decir, es un circuito que carece de memoria. Trabajan con números, y con la tecnología con la que están realizados, estos números están representados en binario (Peiron Guárdia & Sánchez Carracedo, 2015).
