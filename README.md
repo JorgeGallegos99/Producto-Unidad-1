@@ -26,7 +26,7 @@
 
 <p style="text-align: justify;"> Se plantea un nuevo método basado en algoritmos genéticos para el diseño de circuitos lógicos combinacionales. En este método se adopta el algoritmo k-means para optimizar el algoritmo genético con el objetivo de aumentar la eficiencia y reducir el costo de producción. CGACLC da como resultado una optimización del número de elementos del circuito a nivel     de puerta y el recuento de transistores en comparación con los algoritmos evolutivos ya propuestos.
 
-**Autor:** 
+**Autores:** 
 
 - Zahra Alidousti
 
@@ -47,7 +47,8 @@ Este árticulo guarda relación con los problemas planteados, en que buscan reso
 
 En este árticulo se diseña circuitos combinacionales para la preservacion de paridad mediante una puerta reversible que es creada, con el fin de buscar  la detección de errores en los sistemas digitales convencionales con la verificación de paridad es ahi donde utilizan la puerta logica llamada SMS integrada que tiene la propiedad de preservación de paridad y produce todas las puertas booleanas primitivas. 
 
-**Autor:** 
+**Autores:**
+
 -Trailokya Nath Sasamal
 Departamento de Electrónica y Comunicación, NIT Kurukshetra-136119, India
 -Anand Mohan
@@ -68,6 +69,7 @@ En el articulo lo cual crean una nuevo integrado llamada puerta reversible que c
 
 En este diseño se analiza diferentes comparadores de magnitud de bits N más grandes de alta velocidad y baja potencia con la compuerta lógica NOR , se tiene en cuenta diferentes cosas como el rendimiento, para el consumo de la energía, el retraso y el Producto de retraso de energía con Vdd Sweep. Una vez analizado de manera general se centran en realizar  El diseño para el comparador propuesto que es baja potencia, alta velocidad 4. 
 **Autores:**
+
 - Pranay Singh
 Shri G.S. Institute of Technology and Science,Indore,M.P.,India,452003
 - Pramod Kumar Jain
@@ -137,7 +139,7 @@ La operación de los circuitos combinacionales se entiende escribiendo las ecuac
 
 **5.2 Diagramas Electrónico**
 
-A continuación se muestran diagramas Electronicos de los diseños de los 3 circuitos propuestos. 
+A continuación se muestran los diagramas Electronicos de lasimulacion del diseños de los 3 circuitos. 
 
 *Circuito Votador*
 
@@ -156,7 +158,12 @@ A continuación se muestran diagramas Electronicos de los diseños de los 3 circ
 ![MFig10.jpeg](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/MFig10.jpeg)
 
    **Figura 9:** Diseño de Circuito Comparador
+   
+ A continuación se muestra los diagramas Electrónicos en el laboratorio Virtual
+ ![jEsquemaElectronico](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/jDiagramaElectronico.png)
 
+   **Figura 8:** Diseño de Circuito Asignador de Turnos 
+ 
 ## 6. LISTA DE COMPONENTES
 
 En la Tabla 1 se muestra las herramientas  de software usadas para la simulacion de los tres circuitos se utilizó dos tipos de simuladores, y la aplicacion usada para el programa del circuito Comparador.
