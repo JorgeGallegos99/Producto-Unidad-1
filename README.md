@@ -167,8 +167,11 @@ En la Tabla 2 se muestra los componentes electrónicos Para la realización del 
                                                                                                                          
 ### 8. EXPLICACIÓN DEL CÓDIGO FUENTE
 La pantalla principal de la aplicación llamada “Comparador Binario” se presenta de la siguiente manera, mostrando los dos números para ingresar por el teclado, los campos de texto  que muestran los resultados junto con los botones de comparar y borrar.
+
 ![MFig0](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/MFig0.PNG)
+
 Fig. Pantalla de la aplicación Comparador Binario
+
 1. Se crearon 2 variables globales denominadas:
 ![MFig1](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/MFig1.PNG)
 Fig. Inicialización de variables
@@ -181,61 +184,85 @@ De esta manera se asignaron dos resultados para cada caso propuesto, asignando u
 Fig. ProcesoComparar
 4. Se establecieron dos botones de selección en la ventana principal del programa:
 * Cuando el BotonComparar hace clic, se ejecutan los proncesos de Transformar y Comparar 
+	
 ![MFig4](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/MFig4.PNG)
+	
 Fig. Boton Comparar
 * Cuando el BotonBorrar hace clic, se reestablecen todos los valores
+
 ![MFig5](https://github.com/JorgeGallegos99/Producto-Unidad-1/blob/master/Img/MFig5.PNG)
+
 Fig. Boton Borrar
 
 **Explicacción del diseño los circuitos**
+
 **1. Circuito botador**
+
 **2. Circuito asignador de turnos**
+
 **3. Circuito comparador**
+
 Se pretende diseñar un circuito comparador de dos números binarios cada uno de dos bits para los siguientes tres casos: A<B, A=B, A>B. Además, a la salida de cada función en el circuito deberá estar un display que muestre el número cero para cada uno de los casos.
-1. Establecer las entradas del circuito:
-A1	Bit más significativo del número A		
-A0	Bit menos significativo del número  A		
-B1	Bit más significativo del número B		
-B0	Bit menos significativo del número  B		
+
+**1. Establecer las entradas del circuito:**
+
+A1	Bit más significativo del número A
+
+A0	Bit menos significativo del número  A
+
+B1	Bit más significativo del número B
+
+B0	Bit menos significativo del número  B	
+
 Por lo tanto, se tienen 4 entradas y el número de combinaciones está dado por la expresión: 
+
 Combinaciones=2^n
+
 C=2^4=16
 
-2. Establecer las salidas del circuito:
+**2. Establecer las salidas del circuito:**
 A<B	m	Cuando A es menor a B	
 A=B	i	Cuando A es igual a B	
 A>B	M	Cuando A es mayor a B	
 Por lo tanto, las salidas del circuito son dependientes del valor de los números ingresados.
 
-3. Formulación de tabla de verdad:
+**3. Formulación de tabla de verdad:**
 Se analizan los dos números ingresados:
+
 Si A es 00 y B es 00
+
 A y B tienen el mismo valor de cero, entonces A=B y la función de salida i es verdadera y toma el valor de uno lógico mientras que las otras dos tomarán el valor de cero lógico.
+
 Si A es 01 y B es 10
+
 A toma el valor de 1 y B toma el valor de 2, entoces A<B y la función m es verdadera y toma el valor de uno lógico mientras que las otras dos tomarán el valor de cero lógico.
+
 Si A es 11 y B es 00
 A toma el valor de 3 y B toma el valor de 0, entonces A>B y la función M es verdadera y toma el valor de uno lógico mientras que las otras dos tomarán el valor de cero lógico.
 
 Este mismo análisis se realiza hasta completar las 16 combinaciones dando como resultado la siguiente tabla de verdad:
-				A<B	A=B	A>B
-|A1	|A0	|B1	|B0|	m	|i	|M|
-|---|-|--|---|---|---|
-|0|0|0|0	|0	|1	|0|
-|0|0|0|1|	1	|0	|0|
-|0|0|1|	0|	1	|0	|0|
-|0|	0	|1|	1|	1	|0|	0|
-|0|	1	|0|	0|	0|	0|	1|
-|0|	1	|0|	1	|0	|1|	0|
-|0	1	|1|	0	|1	|0	|0|
-|0|	1	|1|	1|	1|	0	|0|
-|1|	0	|0|	0|	0|	0	|1|
-|1|	0	|0|	1|	0|	0	|1|
-|1|	0	|1|	0|	0|	1|	0|
-|1|	0	|1|	1	|1|	0|	0|
-|1|	1	0	0	0	0	1
-1	1	0	1	0	0	1
-1	1	1	0	0	0	1
-1	1	1	1	0	1	0
+
+|                          |A<B |	A=B |	A>B|
+
+|A1	|A0	|B1	|B0 |m  |i  |M  |
+|-------|-------|-------|---|---|---|---|
+|0	|0	|0	|0  |0	|1	|0|
+|0	|0	|0	|1  |1	|0	|0|
+|0	|0	|1	|0	|1	|0	|0|
+|0	|0	|1	|1	|1	|0	|0|
+|0	|1	|0	|0	|0	|0	|1|
+|0	|1	|0	|1	|0	|1	|0|
+|0	|1	|1	|0	|1	|0	|0|
+|0	|1	|1	|1	|1	|0	|0|
+|1	|0	|0	|0	|0	|0	|1|
+|1	|0	|0	|1	|0	|0	|1|
+|1	|0	|1	|0	|0	|1	|0|
+|1	|0	|1	|1	|1	|0	|0|
+|1	|1	|0	|0	|0	|0	|1|
+|1	|1	|0	|1	|0	|0	|1|
+|1	|1	|1	|0	|0	|0	|1|
+|1	|1	|1	|1	|0	|1	|0|
+
 
 4. Se btener las funciones resultantes simplificadas para realizar la implementación del circuito, para ello se pueden escoger mintérminos o maxtérminos. Debido a que en las funciones existen más 1 que 0, se tomarán los mintérminos.
 Para A<B:
